@@ -1,9 +1,0 @@
-[ {
-  "buildOrder" : 6,
-  "reportUrl" : "https://szitszi.github.io/selenium-py-peldatar/6/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 0,
-    "retry" : 0
-  }
-} ]
