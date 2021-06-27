@@ -35,6 +35,9 @@ jobs:
     - name: Install chromedriver
       run: |
        seleniumbase install chromedriver
+    - name: Headless option
+      run: |
+          selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" test.side
 
     - name: Test with pytest
       run: |
