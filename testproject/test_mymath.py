@@ -1,3 +1,5 @@
+import common
+
 import pytest
 
 from mymath import add_numbers
