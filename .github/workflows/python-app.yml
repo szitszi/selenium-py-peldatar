@@ -37,7 +37,7 @@ jobs:
  
     - name: Test with pytest
       run: |
-        pytest --alluredir=allure-results -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" test.side
+        pytest --alluredir=allure-results
         
     - name: Allure Report action from marketplace
       uses: simple-elf/allure-report-action@master
