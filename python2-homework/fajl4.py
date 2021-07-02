@@ -10,4 +10,3 @@ print(len(my_list))
 
 with open("uj_adat.txt", "w") as file:
     for i in range(9):
-        file.write(str(my_list[i]))
